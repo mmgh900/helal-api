@@ -1,1 +1,0 @@
-fetch('http://127.0.0.1:8550/histogram?bins=12').then(response => response.json()).then(console.log)
