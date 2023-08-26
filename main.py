@@ -18,7 +18,9 @@ origins = [
     "http://localhost:3001",
     "http://localhost:3000",
     "http://192.168.32.1:3001",
+    "http://2.180.5.196:3000",
 ]
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -31,7 +33,7 @@ app.add_middleware(
 
 # Define a function to create a database connection
 def create_connection():
-    server = "192.168.32.2\\SQLEXPRESS"
+    server = "192.168.101.246\\SQLEXPRESS"
     database = "ModiranFarmer"
     username = "mmgh900"
     password = "0936"
